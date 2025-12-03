@@ -105,42 +105,6 @@ The system generates a comprehensive PDF report containing:
 7. **Data Visualization**: Pie chart showing disease distribution across all 303 patients
 8. **Data Table**: Top 20 patient records with formatted, readable values
 
-## Customization
 
-### Using Different Data
 
-Simply replace `data/Heart.csv` with your own heart disease dataset. The system will automatically:
-- Detect the heart disease schema
-- Map categorical values to readable labels
-- Generate relevant medical insights
-- Create appropriate visualizations
 
-### Changing the Output Path
-
-Edit the `output_path` variable in `src/main.py`:
-```python
-output_path = "Your_Custom_Report_Name.pdf"
-```
-
-### Customizing the AI Analysis
-
-You can modify the AI prompt in `src/analysis.py` to focus on different aspects of the data or change the analysis depth.
-
-## Troubleshooting
-
-**Issue**: `OPENAI_API_KEY not found`
-- **Solution**: Make sure you've set the environment variable before running the script
-
-**Issue**: PDF headers are overlapping
-- **Solution**: The system now wraps headers automatically. Ensure you're using the latest version.
-
-**Issue**: Wrong data in the report
-- **Solution**: Check that your CSV file is properly formatted and located in the `data/` directory
-
-## License
-
-This project is provided as-is for educational and commercial use.
-
-## Support
-
-For questions or issues, please refer to the project documentation or contact the development team.
