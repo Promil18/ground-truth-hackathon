@@ -1,0 +1,7 @@
+polars
+openai
+reportlab
+python-dotenv
+matplotlib
+seaborn
+pandas
