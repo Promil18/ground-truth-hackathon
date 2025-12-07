@@ -1,5 +1,6 @@
 import os
 import sys
+sys.stdout.reconfigure(encoding='utf-8')
 from ingestion import load_csv
 from processing import clean_data, aggregate_metrics
 from analysis import generate_narrative
